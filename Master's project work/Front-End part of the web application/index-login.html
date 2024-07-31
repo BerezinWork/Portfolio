@@ -1,0 +1,126 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="eng">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="css/style-login.css" />
+	<title>© TWIN, Сторінка Входу</title>
+</head>
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class='header__container'>
+				<a href="index.html#main" class="header__logo">
+					<img src="img/Logo Twin.svg" alt="logo">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="index.html#main" class="menu__link">Головна</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#footer" class="menu__link">Про Нас</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#services" class="menu__link">Можливості</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#footer" class="menu__link">Підтримка</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<button class="burger-menu" type="button">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main" id="main">
+				<div class='main__container' id="container">
+					<div class="form-container sign-up">
+						<form>
+							<h1>Створити Акаунт</h1>
+							<div class="social-icons">
+								<a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+							<span>або використовуй email для реєстрації</span>
+							<input type="text" placeholder="Ім'я" required>
+							<input type="email" placeholder="Email" required>
+							<input type="password" placeholder="Пароль" required>
+							<button class="login-page__registration-button"><a>Зареєструватися</a></button>
+						</form>
+					</div>
+					<div class="form-container sign-in">
+						<form>
+							<h1>Увійти в акаунт</h1>
+							<div class="social-icons">
+								<a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+							</div>
+							<span>або використовуй email для входу</span>
+							<input type="email" placeholder="Email" required>
+							<input type="password" placeholder="Пароль" required>
+							<a href="#" class="forget-pass">Не пам'ятаю пароль</a>
+							<button class="login-page__login-button"><a>Увійти</a></button>
+						</form>
+					</div>
+					<div class="toggle-container">
+						<div class="toggle">
+							<div class="toggle-panel toggle-left">
+								<h1>Натисни, якщо ...</h1>
+								<p>вже маєш створену сторінку та бажаєш увійти.</p>
+								<button class="hidden" id="login">Увійти</button>
+							</div>
+							<div class="toggle-panel toggle-right">
+								<h1>Натисни, якщо ...</h1>
+								<p>не маєш сторінки та бажаєш зареєструватися.</p>
+								<button class="hidden" id="register">Зареєструватися</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer__bottom bottom-footer">
+				<div class='bottom-footer__container'>
+					<div class="bottom-footer__content">
+						<div class="bottom-footer__logo">
+							<a href="" class="footer__logo">
+								<img src="img/Logo Twin.svg" alt="logo">
+							</a>
+						</div>
+						<div class="bottom-footer__copy">© 2024 Twin, llc</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Подключение jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Подключаем файл JS скриптов -->
+	
+	<script src="js/script-after-login.js"></script>
+	<script src="js/script-login.js"></script>
+</body>
+
+</html>

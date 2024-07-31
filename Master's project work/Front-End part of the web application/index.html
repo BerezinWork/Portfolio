@@ -1,0 +1,207 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="eng">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css" />
+	<title>© TWIN, Головна Сторінка</title>
+</head>
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class='header__container'>
+				<a href="#main" class="header__logo">
+					<img src="img/Logo Twin.svg" alt="logo">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#main" class="menu__link">Головна</a>
+							</li>
+							<li class="menu__item">
+								<a href="#footer" class="menu__link">Про Нас</a>
+							</li>
+							<li class="menu__item">
+								<a href="#services" class="menu__link">Можливості</a>
+							</li>
+							<li class="menu__item">
+								<a href="#footer" class="menu__link">Підтримка</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<a href="index-login.html" class="header__button button">Розпочати</a>
+				<div class="header__account account-header hidden">
+					<div class="account-header__avatar">
+						<a href="" class="avatar-header__link">
+							<img src="img/avatar.svg" alt="Avatar">
+						</a>
+					</div>
+					<div class="account-header__exit">
+						<a href="" class="exit-header__link">
+							<img src="img/exit.svg" alt="Exit">
+						</a>
+					</div>
+				</div>
+				<button class="burger-menu" type="button">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main" id="main">
+				<div class='main__container'>
+					<div class="main__content">
+						<h1 class="main__title title">Find Your <span>Twin</span></h1>
+						<div class="main__text">
+							<p>
+								Хочеш знайти свій <span>Twin</span>?<br>Пройди тест та дізнайся, хто з мільйонів людей може стати твоїм ідеальним співрозмовником та компаньйоном у пригодах!
+							</p>
+						</div>
+						<div class="main__actions">
+							<a href="index-login.html" class="main__button button">Знайти Свій Twin</a>
+						</div>
+					</div>
+					<div class="main__images images-main">
+						<div class="images-main__column">
+							<div class="images-main__item images-main__item_1">
+								<img src="img/main/01.jpg" alt="Image">
+							</div>
+							<div class="images-main__item images-main__item_2">
+								<img src="img/main/02.jpg" alt="Image">
+							</div>
+						</div>
+						<div class="images-main__column">
+							<div class="images-main__item images-main__item_3">
+								<img src="img/main/03.jpg" alt="Image">
+							</div>
+							<div class="images-main__item images-main__item_4">
+								<img src="img/main/04.jpg" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services" id="services">
+				<div class='services__container'>
+					<div class="services__content">
+						<h2 class="services__title title"><span>Можливості</span></h2>
+						<div class="services__text">
+							<p>
+								Відкрий для себе безмежні можливості спілкування, обговорення та зустрічей на нашому сайті. Поглиблюй свої інтереси, знаходь нових друзів та відкривай для себе захопливі заходи, які відповідають твоїм уподобанням.
+							</p>
+						</div>
+						<div class="services__text-bold">
+							<p>
+								Твій ідеальний <span>Twin</span> може бути зовсім поруч,<br>дай шанс знайти його!
+							</p>
+						</div>
+						<div class="services__actions">
+							<a href="index-login.html" class="services__button button">Розпочати</a>
+						</div>
+					</div>
+					<div class="services__items">
+						<div class="services__column">
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/01.svg" alt="Icon Services">
+								</div>
+								<h4 class="item-service__title">Особисті Поради</h4>
+								<div class="item-service__text">Отримайте персоналізовані рекомендації про інших користувачів, які можуть стати вашими ідеальними співрозмовниками.</div>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/02.svg" alt="Icon Services">
+								</div>
+								<h4 class="item-service__title">Спільні Заходи</h4>
+								<div class="item-service__text">Створюйте та долучайтеся до подій, що організовують інші користувачі на основі спільних інтересів та хобі.</div>
+							</article>
+						</div>
+						<div class="services__column">
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/03.svg" alt="Icon Services">
+								</div>
+								<h4 class="item-service__title">Розвиток Ідей</h4>
+								<div class="item-service__text">Знаходьте партнерів для спільних проектів та розвитку бізнесу, використовуючи нашу платформу для спілкування та обміну ідеями.</div>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/04.svg" alt="Icon Services">
+								</div>
+								<h4 class="item-service__title">Нові Знайомства</h4>
+								<div class="item-service__text">Знаходь нових друзів, які мають схожі інтереси та характер, завдяки нашому унікальному тесту.</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer__main main-footer">
+				<div class='main-footer__container'>
+					<div class="main-footer__column">
+						<a href="" class="main-footer__logo">
+							<img src="img/Logo Twin.svg" alt="logo">
+						</a>
+						<div class="main-footer__text">
+							<p>
+								Погляньмо правду в очі — зараз всі знайомляться онлайн. Якщо ти хочеш знайти відносини або нових друзів, тобі потрібно в <span>TWIN</span>.<br><br>У <span>TWIN</span> ти точно знайдеш те, що шукаєш. Хочеш нових відносин? Будь ласка. Шукаєш нових друзів? Без проблем. <span>TWIN</span> — це не просто сайт знайомств, а ціла соціальна мережа, де найрізноманітніші люди з усього світу зустрічаються, заводять нових друзів та знаходять свою любов.
+							</p>
+						</div>
+					</div>
+					<div class="main-footer__column">
+						<div class="main-footer__label">Слідкуй за новинами</div>
+						<div class="main-footer__text">Підпишись на розсилку повідомлень стосовно<br>оновлень нашого сайту, та отримуй персональні<br>пропозиції.</div>
+						<form action="" class="subscribe">
+							<input type="email" placeholder="Enter your email" required class="subscribe__input">
+							<button type="submit" class="subscribe__button button">Спостерігати</button>
+						</form>
+						<div class="main-footer__social social">
+							<a href="" class="social__link">
+								<img src="img/footer/social/01.svg" alt="In">
+							</a>
+							<a href="" class="social__link">
+								<img src="img/footer/social/02.svg" alt="X">
+							</a>
+							<a href="" class="social__link">
+								<img src="img/footer/social/03.svg" alt="Facebook">
+							</a>
+							<a href="" class="social__link">
+								<img src="img/footer/social/04.svg" alt="YouTube">
+							</a>
+							<a href="" class="social__link">
+								<img src="img/footer/social/05.svg" alt="Instagram">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class='bottom-footer__container'>
+					<div class="bottom-footer__copy">© 2024</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Подключение jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Подключаем файл JS скриптов -->
+	
+	<script src="js/script-after-login.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

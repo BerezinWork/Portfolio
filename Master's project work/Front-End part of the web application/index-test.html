@@ -1,0 +1,121 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="eng">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="css/style-test.css" />
+	<title>© TWIN, Сторінка Тестування</title>
+</head>
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class='header__container'>
+				<a href="index.html#main" class="header__logo">
+					<img src="img/Logo Twin.svg" alt="logo">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="index.html#main" class="menu__link">Головна</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#footer" class="menu__link">Про Нас</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#services" class="menu__link">Можливості</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#footer" class="menu__link">Підтримка</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<a href="" class="header__button button hidden">Розпочати</a>
+				<div class="header__account account-header ">
+					<div class="account-header__avatar">
+						<a href="" class="avatar-header__link">
+							<img src="img/avatar.svg" alt="Avatar">
+						</a>
+					</div>
+					<div class="account-header__exit">
+						<a href="" class="exit-header__link">
+							<img src="img/exit.svg" alt="Exit">
+						</a>
+					</div>
+				</div>
+				<button class="burger-menu" type="button">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__quiz">
+				<div class='quiz__container'>
+					<div class="quiz hidden">
+						<div class="quiz__progress">
+							<div class="quiz__progress-inner"></div>
+						</div>
+						<div class="quiz__content">
+							<h3 class="quiz__title">
+								<!-- Задаем значение в JavaScript -->
+							</h3>
+							<ul class="quiz__list">
+								<!-- Задаем значение в JavaScript -->
+							</ul>
+						</div>
+						<div class="quiz__footer">
+							<div class="quiz__total">
+								<!-- Задаем значение в JavaScript -->
+							</div>
+							<button class="quiz__next-btn">
+								<!-- Задаем значение в JavaScript -->
+							</button>
+						</div>
+					</div>
+					<!-- Выводим результаты теста -->
+					<div class="result hidden">
+						<div class="result__title">Ви завершили тест!</div>
+						<div class="result__btn">
+							<a class="result__restart" href="">Twin</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer__bottom bottom-footer">
+				<div class='bottom-footer__container'>
+					<div class="bottom-footer__content">
+						<div class="bottom-footer__logo">
+							<a href="" class="footer__logo">
+								<img src="img/Logo Twin.svg" alt="logo">
+							</a>
+						</div>
+						<div class="bottom-footer__copy">© 2024 Twin, llc</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Подключение jQuery-->
+	<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+	<!-- Подключаем файл JS скриптов -->
+	
+	<script src="js/questions.js"></script>
+	<script src="js/script-test.js"></script>
+	<script src="js/script-after-login.js"></script>
+</body>
+
+</html>
